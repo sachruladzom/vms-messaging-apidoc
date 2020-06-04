@@ -96,9 +96,9 @@ Format JSON
 					},}
 ```
 
-##CONFIG
+## CONFIG
 config ada di bagian ini:
-* [Config Profile](skenario/config.md) : `Config Profile`
+* [Config Profile](config.md) : `Config Profile`
 
 ## Service
 
