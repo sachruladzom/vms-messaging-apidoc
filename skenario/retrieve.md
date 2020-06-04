@@ -104,5 +104,5 @@ config ada di bagian ini:
 
 service dibagi 2, leaving dan retrieve:
 
-* [Skenario leaving](skenario/leaving.md) : `Leaving`
-* [Skenarion Retrieve](skenario/retreive.md) : `Retrieve`
+* [Skenario leaving](leaving.md) : `Leaving`
+* [Skenarion Retrieve](retreive.md) : `Retrieve`
