@@ -76,3 +76,10 @@ Format JSON
 	"status" : "ok",
 }
 ```
+
+## Service
+
+service dibagi 2, leaving dan retrieve:
+
+* [Skenario leaving](skenario/leaving.md) : `Leaving`
+* [Skenarion Retrieve](skenario/retreive.md) : `Retrieve`
