@@ -36,8 +36,8 @@ Format JSON
 | `status` | `string` | `ok` <br> `error`| proses pengambilan data berhasil<br> `error` proses pengambilan data gagal |
 | `access` | `boolean` | `true`<br>`false` | apakah punya akses|
 | `mailbox` | `json` | {<br>&nbsp;&nbsp;&nbsp;"total":5,<br>&nbsp;&nbsp;&nbsp;"read":3,<br>&nbsp;&nbsp;&nbsp;"unread":2<br>}|`total` Total jumlah pada mailbox<br>`read` Jumlah pesan terbaca <br>`unread` Jumlah pesan belum terbaca|
-| `message_read` | `json` | `[`{<br>&nbsp;&nbsp;&nbsp"number":"08123",<br>&nbsp;&nbsp;&nbsp;"date":"2020-12-20","voice":"msg_a"<br>},{<br>&nbsp;&nbsp;&nbsp"number":"081245",<br>&nbsp;&nbsp;&nbsp;"date":"2020-12-21","voice":"msg_b"<br>`]`;
-| `message_unread` | `json` | `[`{<br>&nbsp;&nbsp;&nbsp"number":"081812",<br>&nbsp;&nbsp;&nbsp;"date":"2020-12-20","voice":"msg_c"<br>},{<br>&nbsp;&nbsp;&nbsp"number":"08181245",<br>&nbsp;&nbsp;&nbsp;"date":"2020-12-24","voice":"msg_d"<br>`]`;
+| `message_read` | `json` | `[`{<br>&nbsp;&nbsp;&nbsp"number":"08123",<br>&nbsp;&nbsp;&nbsp;"date":"2020-12-20","voice":"msg_a"<br>},{<br>&nbsp;&nbsp;&nbsp"number":"081245",<br>&nbsp;&nbsp;&nbsp;"date":"2020-12-21","voice":"msg_b"<br>`]`||
+| `message_unread` | `json` | `[`{<br>&nbsp;&nbsp;&nbsp"number":"081812",<br>&nbsp;&nbsp;&nbsp;"date":"2020-12-20","voice":"msg_c"<br>},{<br>&nbsp;&nbsp;&nbsp"number":"08181245",<br>&nbsp;&nbsp;&nbsp;"date":"2020-12-24","voice":"msg_d"<br>`]`||
 | `language` | `string` | `ina` <br>`eng`|`ina` bahasa <br>`eng` english |
 | `play_promo_x` | `json` |{<br>&nbsp;&nbsp;&nbsp;"general":"on",<br>&nbsp;&nbsp;&nbsp;"personal":"on",<br>&nbsp;&nbsp;&nbsp;"voice":"promo_x_voice"<br>}|`general` aktivasi promo x general<br>`personal` aktivasi promo x personal<br>`voice` voice promo<br><br>`general` dan `personal` valuenya `on` atau `off`|
 | `play_promo_y` | `json` |{<br>&nbsp;&nbsp;&nbsp;"general":"on",<br>&nbsp;&nbsp;&nbsp;"personal":"on",<br>&nbsp;&nbsp;&nbsp;"voice":"promo_x_voice"<br>}|`general` aktivasi promo x general<br>`personal` aktivasi promo x personal<br>`voice` voice promo<br><br>`general` dan `personal` valuenya `on` atau `off`|
